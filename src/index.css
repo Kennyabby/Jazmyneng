@@ -391,7 +391,7 @@ body {
 .tpcard-title{
   font-family: var(--dosis-font);
   color: var(--title-color);
-  font-size: .9em;
+  font-size: .85em;
   font-weight: 600;
   margin-top: 20px;
   text-transform: uppercase;
