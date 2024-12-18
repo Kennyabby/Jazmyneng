@@ -350,7 +350,7 @@ body {
 }
 .ourtechcov{
   padding-top:150px;
-  width: 85%;
+  width: 100%;
   margin: auto;
   justify-content: center;
 }
@@ -415,7 +415,7 @@ body {
   width: 100%;
 }
 .clientcov{
-  width: 85%;
+  width: 100%;
   margin: auto;
   margin-bottom: 100px;
   justify-content: center;
