@@ -212,6 +212,7 @@ body {
 
 .main{
   width: 100%;
+  background: white;
 }
 
 /* GFN SECTION */
@@ -267,4 +268,162 @@ body {
   align-items: center;
   gap: 10px;
   cursor: pointer;
+}
+.deltrk{
+  width: 85%;
+  margin: auto;
+  margin-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+  justify-content: center;
+  align-items: center;
+}
+.deltrk-img{
+  max-width: 47%;
+  margin: 0px auto;
+}
+.deltrk-img{
+  width: 100%;
+}
+.deltrk-cnt{
+  max-width: 38%;
+  margin: 0px auto;
+}
+.deltrk-header{
+  margin-bottom: 30px;
+}
+.deltrk-title{
+  font-family: var(--dosis-font);
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  line-height: 1.7em;
+  font-weight: bold;  
+}
+.inline-col{
+  color: var(--primary-color);
+}
+.deltrk-subtitle{
+  font-size: .8em;
+  line-height: 1em;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.deltrk-text{
+  margin-bottom: 30px;
+  font-size: 1em;
+}
+.deltrk-btn{
+  color: var(--primary-color);
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  display: flex;
+  gap: 10px;
+  align-items: center;  
+  cursor: pointer;
+}
+
+.bottles-img{
+  width: 47%;
+}
+.ourtech{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  background-color: var(--primary-bg-color);
+}
+.lpage-shape-top{
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  direction: ltr;
+}
+.lpage-shape-fill{
+  fill: white;
+  transform-origin: center;
+  transform: rotateY(0deg);
+}
+.ourtechcov{
+  padding-top:150px;
+  width: 85%;
+  margin: auto;
+  justify-content: center;
+}
+.ourtech-cont{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  width: 450px;
+  gap: 15px;
+}
+.tp{
+  display: flex;
+  width: 85%;
+  margin: 50px auto;
+  justify-content: center;
+  /* gap: 15px; */
+}
+.tpcard{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+.tpcard-img{
+  padding: 30%;
+  background: white;
+  border-radius: 50%;
+  box-shadow: var(--box-shadow1);
+}
+.tpcard-img-src{
+  width: 60px;
+}
+.tpcard-title{
+  font-family: var(--dosis-font);
+  color: var(--title-color);
+  font-size: .9em;
+  font-weight: 600;
+  margin-top: 20px;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  letter-spacing: 2px;
+  width: 150px;
+  text-align: center;
+}
+.tp-img{
+  width: 85%;
+  margin: auto;
+  margin-top: 100px;
+}
+.tp-img-src{
+  width: 100%;
+  border-radius: 10px;
+}
+.client{
+  padding-top: 100px;
+  background: linear-gradient(var(--txt-select-bg-color),white);
+  width: 100%;
+}
+.clientcov{
+  width: 85%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  order: 0;
+}
+.client-header{
+  margin-bottom: 60px;
 }
