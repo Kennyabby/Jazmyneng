@@ -13,6 +13,10 @@ import glass from '../assets/images/glass-1-1.png'
 import certificate from '../assets/images/certification-1-1.png'
 import tpimg from '../assets/images/rohit-tandon-9wg5jCEPBsw-unsplash-1-1536x1018.png'
 
+import cient1 from '../assets/images/client1.png'
+import cient2 from '../assets/images/client2.png'
+import cient3 from '../assets/images/client3.png'
+
 export default function Main() {
 
     return (
@@ -125,16 +129,47 @@ export default function Main() {
                 </div>
                 <div className='client-list'>
                     <div className='client-card'>
-                        <div className='client-card-rating'></div>
-                        <div className='client-card-content'></div>
+                        <div className='client-card-rating'></div>
+                        <div className='client-card-content'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec venenatis nulla. Vivamus sagittis rhoncus.
+                        </div>
                         <div className='client-card-profile'>
-                            <div className='client-card-pf-img'></div>
-                            <div className='client-card-content'>
+                            <img className='client-card-pf-img' src={cient1}/>
+                            <div className='client-profile-content'>
                                 <div className='client-name'>Lila Anderson</div>
                                 <div className='client-title'>Student</div>
                             </div>
                         </div>
                     </div> 
+                    <div className='client-card'>
+                        <div className='client-card-rating'></div>
+                        <div className='client-card-content'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec venenatis nulla. Vivamus sagittis rhoncus.
+                        </div>
+                        <div className='client-card-profile'>
+                            <img className='client-card-pf-img' src={cient2}/>
+                            <div className='client-profile-content'>
+                                <div className='client-name'>Silva Stone</div>
+                                <div className='client-title'>Barista</div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div className='client-card'>
+                        <div className='client-card-rating'></div>
+                        <div className='client-card-content'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec venenatis nulla. Vivamus sagittis rhoncus.
+                        </div>
+                        <div className='client-card-profile'>
+                            <img className='client-card-pf-img' src={cient3}/>
+                            <div className='client-profile-content'>
+                                <div className='client-name'>Justin Fisher</div>
+                                <div className='client-title'>Developer</div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div className='first-hero-action client-btn'>
+                    <div className='hero-action'>View More</div>
                 </div>
             </div>
         </div>

@@ -410,13 +410,14 @@ body {
   border-radius: 10px;
 }
 .client{
-  padding-top: 100px;
-  background: linear-gradient(var(--txt-select-bg-color),white);
+  padding-top: 120px;
+  background: linear-gradient(white,var(--txt-select-bg-color));
   width: 100%;
 }
 .clientcov{
   width: 85%;
   margin: auto;
+  margin-bottom: 100px;
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -426,4 +427,54 @@ body {
 }
 .client-header{
   margin-bottom: 60px;
+}
+.client-list{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.client-card{
+  display: flex;
+  margin: 0px auto;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  width: 280px;
+  background: white;
+  border-radius: 20px;
+  padding: 35px 35px;
+  box-shadow: var(--box-shadow);
+  gap: 20px;
+}
+.client-card-content{
+  color: var(--title-color);
+  font-size: .9em;
+  font-weight: 600;
+  width: 90%;
+}
+.client-card-profile{
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  gap: 15px;
+}
+.client-card-pf-img{
+  width: 50px;
+  border-radius: 50%;
+}
+.client-profile-content{
+  font-weight: 750;
+  font-size: .9em;
+}
+.client-name{
+}
+.client-title{
+  color: var(--primary-color);
+}
+.client-btn{
+  width: fit-content;
+  margin: auto;
 }
