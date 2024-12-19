@@ -38,17 +38,48 @@ export default function Header() {
         </div>
         
         <div className='menunav-content'>
-          {isMenuOpen ? <div className='md'>
-            <button 
-              className="mdmenu"
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-            >
-              {isMenuOpen ? <X /> : <Menu />}
-            </button>
-            <div className="logo-cov">
-              {/* <Droplets className="" /> */}
-              <img className="logo" src={logo}/>
-            </div> 
+          {isMenuOpen ? 
+          <div>
+            <div className='md'>
+              <button 
+                className="mdmenu"
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+              >
+                {isMenuOpen ? <X /> : <Menu />}
+              </button>
+              <div className="logo-cov">
+                {/* <Droplets className="" /> */}
+                <img className="logo" src={logo}/>
+              </div> 
+            </div>
+            <div className="mb-nav-content">
+              <div className='headerrightcover'>
+                <div className='headerinpcov'>
+                  <IoSearchOutline className='headerright1'/>
+                  <input 
+                    className='headerinp'
+                    placeholder='Search'
+                  />
+                </div>
+                <div><IoCartOutline className='headerright1'/></div>            
+              </div>
+
+              <div className='ctc-addr'>
+                <div>
+                  <SlLocationPin className='headericon'/> 
+                  <div>2, Okorodo Street, D-line, Garrison, Port Harcourt</div>
+                </div>
+                <div> Call: +2349014727891 </div>
+              </div>
+
+              <div className="route-link">
+                <a href="#" className="">Home</a>
+                <a href="#products" className="">About Us</a>
+                <a href="#products" className="">Products</a>
+                <a href="#become-distributor" className="">Become a Distributor</a>
+                <a href="#contact" className="">Contact Us</a>
+              </div>    
+            </div>
           </div>: 
             
           <div className='md'>
