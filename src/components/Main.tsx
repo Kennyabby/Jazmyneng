@@ -17,6 +17,11 @@ import cient1 from '../assets/images/client1.png'
 import cient2 from '../assets/images/client2.png'
 import cient3 from '../assets/images/client3.png'
 
+import deliveryService from '../assets/images/delivery-service.png'
+import deliveryimg from '../assets/images/deltrk.png'
+import calender from '../assets/images/calender.png'
+import clock from '../assets/images/clock.png'
+
 export default function Main() {
 
     return (
@@ -170,6 +175,52 @@ export default function Main() {
                 </div>
                 <div className='first-hero-action client-btn'>
                     <div className='hero-action'>View More</div>
+                </div>
+            </div>
+        </div>
+        <div className='numbers'>
+            <div className='numberscov'>
+                <span className='bwd' data-duration="2000" data-to-value="2375" data-from-value="0">2,375 <div className='numbtxt'>BOTTLES WERE DELIVER</div></span>
+                <span className='ywd' data-duration="1000" data-to-value="11" data-from-value="0">11 <div className='numbtxt'>YEARS WE DELIVER</div></span>
+                <span className='hc' data-duration="2000" data-to-value="99" data-from-value="0">99<span className="">%</span><div className='numbtxt'>HAPPY CUSTOMERS</div></span>
+            </div>
+        </div>
+        <div className='deltrk delivery'>
+            <div className='delivery-cnt'>
+                <div className='deltrk-cnt'>
+                    <div className='deltrk-header delivery-header'>
+                        <div className='deltrk-title'><span className='inline-col'>DELIVERY </span>SERVICE</div>
+                    </div>
+                    <div className='deltrk-text delivery-text'> We will deliver water to your home for 1 hour to anywhere in the city. Just fill the delivery form.</div>     
+                    <div className='delivery-cards'>
+                        <div className='delivery-card'>
+                            <div className='delivery-card-img'>
+                                <img className='delivery-card-img-src' src={deliveryimg}/>
+                            </div>
+                            <div className='delivery-card-txt'>
+                                FREE DELIVERY
+                            </div>
+                        </div>
+                        <div className='delivery-card'>
+                            <div className='delivery-card-img'>
+                                <img className='delivery-card-img-src' src={calender}/>
+                            </div>
+                            <div className='delivery-card-txt'>
+                                7 DAYS A WEEK
+                            </div>
+                        </div>
+                        <div className='delivery-card'>
+                            <div className='delivery-card-img'>
+                                <img className='delivery-card-img-src' src={clock}/>
+                            </div>
+                            <div className='delivery-card-txt'>
+                                8:00 - 23:00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='deltrk-img'>
+                    <img className='deltrk-img-src' src={deliveryService}/>
                 </div>
             </div>
         </div>
