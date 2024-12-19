@@ -526,7 +526,7 @@ body {
 .delivery{
   width: 100%;
   margin-top: 100px;
-  background: var(--primary-bg-color);
+  margin-bottom: 0px;
   background: linear-gradient(white,var(--primary-bg-color));
 }
 .delivery-cnt{
@@ -567,4 +567,15 @@ body {
   font-family: var(--dosis-font);
   border-left: solid var(--btn-bg-color-2) 3px;
   padding:0px 10px;
+}
+.footer-wave-cov{
+  margin: 0px;
+  width: 100%;
+}
+.footer-wave{
+  background-color: var(--primary-bg-color);
+}
+.fbg-wave{
+  fill: var(--footer-bg-color);
+  background: var(--footer-bg-color);
 }
