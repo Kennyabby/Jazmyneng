@@ -579,3 +579,158 @@ body {
   fill: var(--footer-bg-color);
   background: var(--footer-bg-color);
 }
+.menunav-content{
+  display: none;
+}
+
+@media screen and (max-width:700px) {
+  
+  .nav-content{
+    display: flex;
+  }
+  .md{
+    position: relative;
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mdmenu{
+    position: absolute;
+    left: 10px;
+    top: 25px;
+  }
+  .nav-content{
+    display: none;
+  }
+  .menunav-content{
+    background: white;
+    width: 100%;
+    display: block;
+  }
+  .hero{
+    display: block;
+    width: 100%;
+  }
+  .first-hero{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+  }
+  .first-hero-action, .first-hero-content{
+    text-align: center;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  .hero-image{
+    display: none;
+  }
+  .third-hero{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+  }
+  .third-hero-content-container{
+    width: fit-content;
+    justify-content: center;
+    text-align:center;
+  }
+  .gfn{
+    width: fit-content;
+    margin: auto;
+  }
+  .gfncard{
+    margin: 30px auto;
+    width: 100%;
+  }
+  .deltrk{
+    display: block;
+    width: 100%;
+  }
+  .deltrk-img{
+    max-width: 65%;
+  }
+  .deltrk-cnt{
+    max-width: 90%;
+  }
+  .deltrk-header{
+    text-align: center;
+    margin: 20px auto;
+  }
+  .deltrk-text{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 50px auto;
+  }
+  .deltrk-btn{
+    text-align: center;
+    justify-content: center;
+  }
+  .deltrkmb{
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .deltrk-text{
+    font-size: 1.2em;
+  }
+  .tp{
+    display: block;
+  }
+  .tpcard{
+    width: 60%;
+    margin: 60px auto;
+  }
+  .tpcard-img-src{
+    width: 100px;
+  }
+  .tpcard-title{
+    margin-top: 30px;
+    width: 90%;
+  }
+  .tp-img{
+    width: 90%;
+  }
+  .clientcov{
+    width: 100%;
+  }
+  .client-list{
+    width: 100%;
+  }
+  .client-card{
+    width: 85%;
+    margin: 50px auto;
+    text-align: center;
+  }
+  .client-card-content{
+    font-size: 1.2em;
+  }
+  .client-card-profile{
+    display: block;
+    justify-content: center;
+  }
+  .client-card-pf-img{
+    margin: 10px auto;
+    width: 60px;
+  }
+  .numberscov{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+ .delivery-cnt{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin: 0px auto;
+  padding-bottom: 50px;
+ }
+ .delivery-cards{
+  width: 100%;
+ }
+}

@@ -67,7 +67,7 @@ export default function Main() {
                 <div className='deltrk-btn'>Read more <FaLongArrowAltRight/></div>           
             </div>
         </div>
-        <div className='deltrk'>
+        <div className='deltrk deltrkmb'>
             <div className='deltrk-cnt'>
                 <div className='deltrk-header'>
                     <div className='deltrk-title'>OUR DRINKING <span className='inline-col'>WATER</span></div>
@@ -129,7 +129,7 @@ export default function Main() {
         <div className='client'>
             <div className='clientcov'>
                 <div className='client-header'>
-                    <div className='deltrk-title'>WHAT <span className='inline-col'>OUR CLIENT SAYS</span></div>
+                    <div className='deltrk-title'>WHAT <span className='inline-col'>OUR CLIENT SAY</span></div>
                     <div className='deltrk-subtitle'>TESTIMONIALS</div>
                 </div>
                 <div className='client-list'>

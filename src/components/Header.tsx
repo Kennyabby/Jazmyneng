@@ -34,23 +34,46 @@ export default function Header() {
           <div className='headerrightcover'>
             <div className='headerright'><IoSearchOutline/></div>
             <div className='headerright'><IoCartOutline/></div>            
-          </div>
-          <button 
-            className="md:hidden"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          >
-            {isMenuOpen ? <X /> : <Menu />}
-          </button>
+          </div>          
         </div>
-
-        {isMenuOpen && (
+        
+        <div className='menunav-content'>
+          {isMenuOpen ? <div className='md'>
+            <button 
+              className="mdmenu"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              {isMenuOpen ? <X /> : <Menu />}
+            </button>
+            <div className="logo-cov">
+              {/* <Droplets className="" /> */}
+              <img className="logo" src={logo}/>
+            </div> 
+          </div>: 
+            
+          <div className='md'>
+            <button 
+              className="mdmenu"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              {isMenuOpen ? <X /> : <Menu />}
+            </button>
+            <div className="logo-cov">
+              {/* <Droplets className="" /> */}
+              <img className="logo" src={logo}/>
+            </div>
+          </div>}
+        </div> 
+          
+        
+        {/* {isMenuOpen && (
           <div className="md:hidden mt-4 space-y-4 pb-4">
             <a href="#" className="block hover:text-blue-200">Home</a>
             <a href="#products" className="block hover:text-blue-200">Products</a>
             <a href="#become-distributor" className="block hover:text-blue-200">Become a Distributor</a>
             <a href="#contact" className="block hover:text-blue-200">Contact</a>
           </div>
-        )}
+        )} */}
       </nav>
     </header>
   );
