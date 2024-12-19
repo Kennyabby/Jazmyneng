@@ -730,6 +730,9 @@ body {
   .deltrk-text{
     font-size: 1.2em;
   }
+  .ourtech-cont{
+    width: 90%;
+  }
   .tp{
     display: block;
   }
