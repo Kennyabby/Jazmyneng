@@ -1022,6 +1022,17 @@ body {
  .delivery-cards{
   width: 100%;
  }
+
+ .abouthero{
+  padding-top: 60px;
+  padding-bottom: 60px;
+ }
+ .abouthero-title{
+  font-size: 2.6em;
+ }
+ .abouthero-route{
+  font-size: .8em;
+ }
  .contactbody-title{
   font-size: 2.2em;
  }
