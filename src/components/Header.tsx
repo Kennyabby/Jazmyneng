@@ -3,11 +3,11 @@ import { Droplets, Menu, X } from 'lucide-react';
 import logo from '../assets/images/logo.png'
 import { SlLocationPin } from "react-icons/sl";
 import { IoSearchOutline, IoCartOutline } from "react-icons/io5";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [searchClicked, setSearchClicked] = useState(false)
-
+  const Navigate = useNavigate()
   const handleNavClick = (e: any)=>{
     const name = e.target.getAttribute('name')
     setIsMenuOpen(false)
@@ -16,9 +16,14 @@ export default function Header() {
     <header className="header">
       <nav className="nav">
         <div className="nav-content">
-          <div className="logo-cov">
+          <div className="logo-cov"
+            onClick={()=>{
+              Navigate('/')
+            }}
+          >
             {/* <Droplets className="" /> */}
             <img className="logo" src={logo}/>
+            
           </div>
           
           <div className="route-link">
@@ -75,7 +80,11 @@ export default function Header() {
               >
                 {isMenuOpen ? <X /> : <Menu />}
               </button>
-              <div className="logo-cov">
+              <div className="logo-cov"
+                onClick={()=>{
+                  Navigate('/')
+                }}
+              >
                 {/* <Droplets className="" /> */}
                 <img className="logo" src={logo}/>
               </div> 
@@ -120,7 +129,11 @@ export default function Header() {
             >
               {isMenuOpen ? <X /> : <Menu />}
             </button>
-            <div className="logo-cov">
+            <div className="logo-cov"
+              onClick={()=>{
+                Navigate('/')
+              }}
+            >
               {/* <Droplets className="" /> */}
               <img className="logo" src={logo}/>
             </div>
