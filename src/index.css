@@ -490,6 +490,10 @@ body {
   box-shadow: var(--box-shadow);
   gap: 20px;
 }
+.client-card-rating{
+  display: flex;
+  color: rgb(219, 178, 11)
+}
 .client-card-content{
   color: var(--title-color);
   font-size: .9em;

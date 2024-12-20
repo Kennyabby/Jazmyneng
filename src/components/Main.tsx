@@ -1,4 +1,5 @@
 import React from 'react'
+
 import gfnWater from '../assets/images/water-composition.png'
 import gfnTruck from '../assets/images/truck.png'
 import gfnSaveWater from '../assets/images/save-water.png'
@@ -13,6 +14,7 @@ import glass from '../assets/images/glass-1-1.png'
 import certificate from '../assets/images/certification-1-1.png'
 import tpimg from '../assets/images/rohit-tandon-9wg5jCEPBsw-unsplash-1-1536x1018.png'
 
+import { FaStar } from "react-icons/fa";
 import cient1 from '../assets/images/client1.png'
 import cient2 from '../assets/images/client2.png'
 import cient3 from '../assets/images/client3.png'
@@ -134,7 +136,13 @@ export default function Main() {
                 </div>
                 <div className='client-list'>
                     <div className='client-card'>
-                        <div className='client-card-rating'></div>
+                        <div className='client-card-rating'>
+                            <FaStar/>
+                            <FaStar/>
+                            <FaStar/>
+                            <FaStar/>
+                            <FaStar/>
+                        </div>
                         <div className='client-card-content'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec venenatis nulla. Vivamus sagittis rhoncus.
                         </div>
@@ -147,7 +155,13 @@ export default function Main() {
                         </div>
                     </div> 
                     <div className='client-card'>
-                        <div className='client-card-rating'></div>
+                        <div className='client-card-rating'>
+                            <FaStar/>
+                            <FaStar/>
+                            <FaStar/>
+                            <FaStar/>
+                            <FaStar/>
+                        </div>
                         <div className='client-card-content'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec venenatis nulla. Vivamus sagittis rhoncus.
                         </div>
@@ -160,7 +174,13 @@ export default function Main() {
                         </div>
                     </div> 
                     <div className='client-card'>
-                        <div className='client-card-rating'></div>
+                        <div className='client-card-rating'>
+                            <FaStar/>
+                            <FaStar/>
+                            <FaStar/>
+                            <FaStar/>
+                            <FaStar/>
+                        </div>
                         <div className='client-card-content'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec venenatis nulla. Vivamus sagittis rhoncus.
                         </div>
