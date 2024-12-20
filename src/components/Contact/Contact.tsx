@@ -27,7 +27,7 @@ const Contact = ()=>{
                 </g>
             </svg>
             <div className='contact-body'>
-                <div className='deltrk-title'>CONTACT <span className='inline-col'>INFORMATION</span></div>
+                <div className='deltrk-title contactbody-title'>CONTACT <span className='inline-col'>INFORMATION</span></div>
                 <div className='contact-cov'>
                     <div className='contact-info'>
                         <div className='contact-ho'>
