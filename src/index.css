@@ -93,6 +93,8 @@ body {
 }
 
 .ctc-addr{
+  display: flex;
+  align-items: center;
   margin: auto 15px;
   font-size: .7em;
   text-align: left;
@@ -101,6 +103,27 @@ body {
     display: inline-flex;
     max-width: 200px;
   }
+}
+.ctc{
+  cursor: pointer;
+  width: fit-content;
+}
+.ctc:hover{
+  color: var(--primary-color);
+}
+.ctcaddr{
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  .num{
+    font-weight: 700;
+  } 
+}
+.ctcaddr:hover{
+  color: var(--primary-color);
 }
 .headericon{
   font-size: 2em;
@@ -121,7 +144,10 @@ body {
   margin: auto 3px;
   cursor: pointer;
 }
-
+.headerright:hover{
+  background: var(--primary-bg-color);
+  color: var(--primary-color);
+}
 .hero{
   display: flex;
   align-items: center;
@@ -626,12 +652,25 @@ body {
   .headerinpcov{
     display: flex;
     padding: 10px;
-    width: 90%;
-    background: whitesmoke;
+    width: 88%;
+    background: rgb(242, 244, 249);
     border-radius: 25px;
+    cursor: pointer;
   }
   .headerright1{
     font-size: 1.5em;
+  }
+  .headerright2cov{
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .headerright2{
+    font-size: 1.3em;
+  }
+  .headerright2cov:hover{
+    color: var(--primary-color);
+    background: var(--primary-bg-color);
   }
   .headerinp{
     width: 100%;
@@ -657,8 +696,23 @@ body {
     justify-content: left;
     margin: 50px auto;
     a{
-      font-size: 1.1em;
-      font-weight: 400;
+      flex-direction: column;
+      font-size: .9em;
+      font-weight: 600;
+    }
+    div{
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      text-align: left;
+      padding: 13px 0px;
+      border-radius: 5px;
+      cursor: pointer;
+      border-bottom: solid whitesmoke 2px;
+    }
+    div:hover{
+      background: var(--primary-bg-color);
+      color: var(--primary-color);
     }
   }
   .menunav-content{

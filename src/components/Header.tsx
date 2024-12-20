@@ -24,11 +24,14 @@ export default function Header() {
           </div>
 
           <div className='ctc-addr'>
-            <div>
+            <div className='ctc'>
               <SlLocationPin className='headericon'/> 
               <div>2, Okorodo Street, D-line, Garrison, Port Harcourt</div>
             </div>
-            <div> Call: +2349014727891 </div>
+            <div className='ctcaddr'> 
+              <div className='num'>+234 901 4727 891</div> 
+              <div>Call Us</div>  
+            </div>
           </div>
 
           <div className='headerrightcover'>
@@ -61,23 +64,36 @@ export default function Header() {
                     placeholder='Search'
                   />
                 </div>
-                <div><IoCartOutline className='headerright1'/></div>            
+                <div className='headerright2cov'><IoCartOutline className='headerright2'/></div>            
               </div>
 
               <div className='ctc-addr'>
-                <div>
+                <div className='ctc'>
                   <SlLocationPin className='headericon'/> 
                   <div>2, Okorodo Street, D-line, Garrison, Port Harcourt</div>
                 </div>
-                <div> Call: +2349014727891 </div>
+                <div className='ctcaddr'> 
+                  <div className='num'>+234 901 4727 891</div> 
+                  <div>Call Us</div>  
+                </div>
               </div>
 
               <div className="route-link">
-                <a href="#" className="">Home</a>
-                <a href="#products" className="">About Us</a>
-                <a href="#products" className="">Products</a>
-                <a href="#become-distributor" className="">Become a Distributor</a>
-                <a href="#contact" className="">Contact Us</a>
+                <div>
+                  <a href="#" className="">Home</a>
+                </div>
+                <div>
+                  <a href="#products" className="">About Us</a>
+                </div>
+                <div>
+                  <a href="#products" className="">Products</a>
+                </div>
+                <div>
+                  <a href="#become-distributor" className="">Become a Distributor</a>
+                </div>
+                <div>
+                  <a href="#contact" className="">Contact Us</a>
+                </div>
               </div>    
             </div>
           </div>: 
