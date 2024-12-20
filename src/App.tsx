@@ -6,6 +6,7 @@ import About from './components/About/About';
 import Products from './components/Products/Products';
 import Contact from './components/Contact/Contact';
 import Distributor from './components/Distributor/Distributor';
+import Testimonials from './components/Testimonials/Testimonials';
 import Footer from './components/Footer';
 
 import {Routes, Route} from 'react-router-dom'
@@ -28,6 +29,7 @@ function App() {
         <Route element={<Products/>} path='/products'/>
         <Route element={<Contact/>} path='/contact'/>
         <Route element={<Distributor/>} path='/become-distributor'/>
+        <Route element={<Testimonials/>} path='/testimonials'/>
       </Routes>
       <Footer />
     </div>

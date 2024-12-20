@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaPlay, FaCheckCircle } from "react-icons/fa";
 import bannerBottle from '../assets/images/banner-img.png';
+import { Link } from 'react-router-dom';
 
 
 export default function Hero() {
@@ -13,7 +14,7 @@ export default function Hero() {
         </div>
         <div className='first-hero-content'>Experience Pure Refreshment with Jazmyne Table Water.</div>
         <div className='first-hero-action'>
-          <div className='hero-action'>Shop Now</div>
+          <Link to='/contact'><div className='hero-action'>Shop Now</div></Link>
           <div className='first-hero-icon1'><FaPlay/></div>
         </div>
       </div>

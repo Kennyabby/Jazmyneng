@@ -23,6 +23,7 @@ import deliveryService from '../assets/images/delivery-service.png'
 import deliveryimg from '../assets/images/deltrk.png'
 import calender from '../assets/images/calender.png'
 import clock from '../assets/images/clock.png'
+import { Link } from 'react-router-dom';
 
 export default function Main() {
 
@@ -36,7 +37,7 @@ export default function Main() {
                     </div>
                     <div className='gfncard-title'>Great Compostion</div>
                     <div className='gfncard-content'>Jazmyne Water Factory produces high-quality, purified water for wholesale distribution. We ensure every bottle meets the highest standards of purity and freshness, ideal for resale and business use.</div>                    
-                    <div className='gfncard-link'>Explore Our Products <FaLongArrowAltRight/></div>
+                    <Link to='/products'><div className='gfncard-link'>Explore Our Products <FaLongArrowAltRight/></div></Link>
                 </div>
                 <div className='gfncard'>
                     <div className='gfncard-image'>
@@ -44,7 +45,7 @@ export default function Main() {
                     </div>
                     <div className='gfncard-title'>Efficient Distribution</div>
                     <div className='gfncard-content'>We supply premium bottled water to wholesalers, distributors, and large companies. Our distribution process is designed to ensure you receive top-quality water with consistency and reliability.</div>
-                    <div className='gfncard-link'> Learn About Our Delivery <FaLongArrowAltRight/></div>
+                    <Link to='/become-distributor'><div className='gfncard-link'> Learn About Our Delivery <FaLongArrowAltRight/></div></Link>
                 </div>
                 <div className='gfncard'>
                     <div className='gfncard-image'>
@@ -52,7 +53,7 @@ export default function Main() {
                     </div>
                     <div className='gfncard-title'>Nano Filtration</div>
                     <div className='gfncard-content'>Our water undergoes advanced nano filtration technology, ensuring that every bottle is pure, clean, and safe for consumption. We prioritize water quality at every step of the production process.</div>
-                    <div className='gfncard-link'> See How We Filter <FaLongArrowAltRight/></div>
+                    <Link to='/products'><div className='gfncard-link'> See How We Filter <FaLongArrowAltRight/></div></Link>
                 </div>
             </section>
         </div>
@@ -68,7 +69,7 @@ export default function Main() {
                 <div className='deltrk-text'> Our state-of-the-art production process utilizes advanced filtration technologies to ensure the purity and safety of every bottle. From sourcing the finest water to rigorous quality control testing, we take every step necessary to deliver a product you can trust.
 
 We specialize in bulk water distribution, ensuring timely and efficient supply to our partners. Whether you're a retailer, distributor, or corporate client, we are here to support your needs with consistency and excellence.</div>     
-                <div className='deltrk-btn'>Read more <FaLongArrowAltRight/></div>           
+                <Link to='/about'><div className='deltrk-btn'>Read more <FaLongArrowAltRight/></div></Link>           
             </div>
         </div>
         <div className='deltrk deltrkmb'>
@@ -79,7 +80,7 @@ We specialize in bulk water distribution, ensuring timely and efficient supply t
                 </div>
                 <div className='deltrk-text'> Our bottled water is purified using the latest technology, ensuring its clarity and taste. We distribute large quantities of water to wholesalers, distributors, and corporate clients who trust us for their quality standards.</div>     
                 <div className='first-hero-action'>
-                    <div className='hero-action'>Order Now</div>
+                    <Link to='/products'><div className='hero-action'>Explore More</div></Link>
                 </div>
             </div>
             <div className='deltrk-img'>
@@ -196,7 +197,7 @@ We specialize in bulk water distribution, ensuring timely and efficient supply t
                     </div> 
                 </div>
                 <div className='first-hero-action client-btn'>
-                    <div className='hero-action'>View More</div>
+                    <Link to='/testimonials'><div className='hero-action'>View More</div></Link>
                 </div>
             </div>
         </div>
