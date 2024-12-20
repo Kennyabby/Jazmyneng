@@ -7,7 +7,10 @@ export default function Hero() {
   return (
     <div className="hero">
       <div className='first-hero'>
-        <div className='first-hero-title'>READY TO GET <span style={{color: '#379eff'}}>HYDRATED?</span></div>
+        <div className='first-hero-title'>
+          <div className='fht1'>READY TO GET</div> 
+          <div className='fht2' style={{color: '#379eff'}}>HYDRATED?</div>
+        </div>
         <div className='first-hero-content'>To drink the best water please come to us and give us order.</div>
         <div className='first-hero-action'>
           <div className='hero-action'>Order Now</div>
