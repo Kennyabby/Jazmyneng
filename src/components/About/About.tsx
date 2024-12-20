@@ -1,12 +1,19 @@
-import React from 'react'
+import React,{useRef, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 
 
 const About = ()=>{
-    
+    const aboutRef = useRef<HTMLDivElement>(null)
+    useEffect(()=>{
+        if (aboutRef.current){
+        aboutRef.current.scrollIntoView({
+            behavior: 'smooth' 
+        })
+        }
+    },[aboutRef])
     return(
         <>
-        <div className='about'>
+        <div className='about' ref={aboutRef}>
             <div className='abouthero'>
                 <div className='abouthero-title'>ABOUT US</div>
                 <div className='abouthero-route'>

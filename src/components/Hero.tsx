@@ -1,12 +1,20 @@
-import React from 'react';
+import React, {useEffect, useRef} from 'react';
 import { FaPlay, FaCheckCircle } from "react-icons/fa";
 import bannerBottle from '../assets/images/banner-img.png';
 import { Link } from 'react-router-dom';
 
 
 export default function Hero() {
+  const heroRef = useRef<HTMLDivElement>(null)
+  useEffect(()=>{
+    if (heroRef.current){
+      heroRef.current.scrollIntoView({
+        behavior: 'smooth' 
+      })
+    }
+  },[heroRef])
   return (
-    <div className="hero">
+    <div className="hero" ref={heroRef}>
       <div className='first-hero'>
         <div className='first-hero-title'>
           <div className='fht1'>READY TO GET</div> 

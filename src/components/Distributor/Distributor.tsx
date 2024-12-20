@@ -1,12 +1,19 @@
-import React from 'react'
+import React,{useEffect,useRef} from 'react'
 import { Link } from 'react-router-dom'
 
 
 const Distributor = ()=>{
-    
+    const distributorRef = useRef<HTMLDivElement>(null)
+    useEffect(()=>{
+        if (distributorRef.current){
+            distributorRef.current.scrollIntoView({
+                behavior: 'smooth' 
+            })
+        }
+    },[distributorRef])
     return(
         <>
-        <div className='about'>
+        <div className='about' ref={distributorRef}>
             <div className='abouthero'>
                 <div className='abouthero-title'>BECOME A DISTRIBUTOR</div>
                 <div className='abouthero-route'>

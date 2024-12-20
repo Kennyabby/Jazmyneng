@@ -1,5 +1,6 @@
 import React from 'react';
 import { Droplets, Facebook, Instagram, Twitter } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -24,10 +25,10 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="/" className="text-gray-400 hover:text-white">Home</a></li>
-              <li><a href="/products" className="text-gray-400 hover:text-white">Products</a></li>
-              <li><a href="/become-distributor" className="text-gray-400 hover:text-white">Become a Distributor</a></li>
-              <li><a href="/contact" className="text-gray-400 hover:text-white">Contact</a></li>
+              <li><Link to='/'><a className="text-gray-400 hover:text-white">Home</a></Link></li>
+              <li><Link to='/products'><a className="text-gray-400 hover:text-white">Products</a></Link></li>
+              <li><Link to='/become-distributor'><a className="text-gray-400 hover:text-white">Become a Distributor</a></Link></li>
+              <li><Link to='/contact'><a className="text-gray-400 hover:text-white">Contact</a></Link></li>
             </ul>
           </div>
 

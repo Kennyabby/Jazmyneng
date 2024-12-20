@@ -3,9 +3,15 @@ import { Droplets, Menu, X } from 'lucide-react';
 import logo from '../assets/images/logo.png'
 import { SlLocationPin } from "react-icons/sl";
 import { IoSearchOutline, IoCartOutline } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [searchClicked, setSearchClicked] = useState(false)
+
+  const handleNavClick = (e: any)=>{
+    const name = e.target.getAttribute('name')
+    setIsMenuOpen(false)
+  }
   return (
     <header className="header">
       <nav className="nav">
@@ -16,11 +22,11 @@ export default function Header() {
           </div>
           
           <div className="route-link">
-            <a href="/" className="">Home</a>
-            <a href="/about" className="">About Us</a>
-            <a href="/products" className="">Products</a>
-            <a href="/become-distributor" className="">Become a Distributor</a>
-            <a href="/contact" className="">Contact Us</a>
+            <Link to='/'><span className="">Home</span></Link>
+            <Link to='/about'><span className="">About Us</span></Link>
+            <Link to='/products'><span className="">Products</span></Link>
+            <Link to='become-distributor'><span className="">Become a Distributor</span></Link>
+            <Link to='/contact'><span className="">Contact Us</span></Link>
           </div>
 
           <div className='ctc-addr'>
@@ -97,22 +103,12 @@ export default function Header() {
                 </div>
               </div>
 
-              <div className="route-link">
-                <div>
-                  <a href="/" className="">Home</a>
-                </div>
-                <div>
-                  <a href="/about" className="">About Us</a>
-                </div>
-                <div>
-                  <a href="/products" className="">Products</a>
-                </div>
-                <div>
-                  <a href="/become-distributor" className="">Become a Distributor</a>
-                </div>
-                <div>
-                  <a href="/contact" className="">Contact Us</a>
-                </div>
+              <div className="route-link" onClick={handleNavClick}>
+                <Link to='/'><span className="">Home</span></Link>
+                <Link to='/about'><span className="">About Us</span></Link>
+                <Link to='/products'><span className="">Products</span></Link>
+                <Link to='become-distributor'><span className="">Become a Distributor</span></Link>
+                <Link to='/contact'><span className="">Contact Us</span></Link>
               </div>    
             </div>
           </div>: 
