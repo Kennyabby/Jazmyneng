@@ -17,10 +17,10 @@ export default function Header() {
           
           <div className="route-link">
             <a href="/" className="">Home</a>
-            <a href="about" className="">About Us</a>
-            <a href="products" className="">Products</a>
-            <a href="become-distributor" className="">Become a Distributor</a>
-            <a href="contact" className="">Contact Us</a>
+            <a href="/about" className="">About Us</a>
+            <a href="/products" className="">Products</a>
+            <a href="/become-distributor" className="">Become a Distributor</a>
+            <a href="/contact" className="">Contact Us</a>
           </div>
 
           <div className='ctc-addr'>
@@ -80,19 +80,19 @@ export default function Header() {
 
               <div className="route-link">
                 <div>
-                  <a href="#" className="">Home</a>
+                  <a href="/" className="">Home</a>
                 </div>
                 <div>
-                  <a href="#about" className="">About Us</a>
+                  <a href="/about" className="">About Us</a>
                 </div>
                 <div>
-                  <a href="#products" className="">Products</a>
+                  <a href="/products" className="">Products</a>
                 </div>
                 <div>
-                  <a href="#become-distributor" className="">Become a Distributor</a>
+                  <a href="/become-distributor" className="">Become a Distributor</a>
                 </div>
                 <div>
-                  <a href="#contact" className="">Contact Us</a>
+                  <a href="/contact" className="">Contact Us</a>
                 </div>
               </div>    
             </div>
