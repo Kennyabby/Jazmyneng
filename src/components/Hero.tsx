@@ -8,9 +8,7 @@ export default function Hero() {
   const heroRef = useRef<HTMLDivElement>(null)
   useEffect(()=>{
     if (heroRef.current){
-      heroRef.current.scrollIntoView({
-        behavior: 'smooth' 
-      })
+      window.scrollTo(0, 0)
     }
   },[heroRef])
   return (
