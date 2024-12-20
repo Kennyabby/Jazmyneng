@@ -134,6 +134,25 @@ body {
   width: fit-content;
   display: inline-flex;
 }
+.headerrightcover1{
+  width: fit-content;
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+  background: white;
+}
+.headerright0{
+  font-size: 1.2em;
+  color: black;
+  background: white;
+}
+.headerinput{
+  margin: 0px 8px;
+  outline: none;
+  font-size: .9em;
+}
 .headerright{
   font-size: 1.2em;
   border-radius: 50%;

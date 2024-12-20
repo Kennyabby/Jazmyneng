@@ -1,11 +1,11 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { Droplets, Menu, X } from 'lucide-react';
 import logo from '../assets/images/logo.png'
 import { SlLocationPin } from "react-icons/sl";
 import { IoSearchOutline, IoCartOutline } from "react-icons/io5";
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-
+  const [searchClicked, setSearchClicked] = useState(false)
   return (
     <header className="header">
       <nav className="nav">
@@ -35,7 +35,26 @@ export default function Header() {
           </div>
 
           <div className='headerrightcover'>
-            <div className='headerright'><IoSearchOutline/></div>
+            {searchClicked ? 
+              <div className='headerrightcover1'>
+                <div className='headerright0'
+                  onClick={()=>{
+                    setSearchClicked(false)
+                  }}
+                >
+                  <IoSearchOutline/>
+                </div>
+                <input 
+                  className='headerinput'
+                  placeholder='Search'
+                />
+              </div>
+             : 
+            <div className='headerright'
+              onClick={()=>{
+                setSearchClicked(true)
+              }}
+            ><IoSearchOutline/></div>}
             <div className='headerright'><IoCartOutline/></div>            
           </div>          
         </div>
