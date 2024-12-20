@@ -4,6 +4,13 @@ import { Droplets, Facebook, Instagram, Twitter } from 'lucide-react';
 export default function Footer() {
   return (
     <footer className="fbg-wave text-white">
+      <div className='footer-wave-cov'>
+          <svg className="footer-wave" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1440 184">
+                  <path className="fbg-wave" d="M1285.4,81.2c-34,12.5-98.3,33.1-186.9,39.8c-230.8,17.6-274.8-85-472.8-71.3
+              c-182,12.6-219.4,104.5-345.3,65.2C237.9,101.6,177,70.7,91.6,81.2c-31.7,4-62.6,13-91.6,26.6V184h1440V0
+              C1392.2,33.7,1340.3,61,1285.4,81.2z"></path>                
+          </svg>
+      </div>
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
