@@ -35,24 +35,24 @@ export default function Main() {
                         <img className='gfncard-image-src' src={gfnWater}/>
                     </div>
                     <div className='gfncard-title'>Great Compostion</div>
-                    <div className='gfncard-content'>Our refreshing purified bottled water can be delivered to your door.</div>                    
-                    <div className='gfncard-link'> Learn More <FaLongArrowAltRight/></div>
+                    <div className='gfncard-content'>Jazmyne Water Factory produces high-quality, purified water for wholesale distribution. We ensure every bottle meets the highest standards of purity and freshness, ideal for resale and business use.</div>                    
+                    <div className='gfncard-link'>Explore Our Products <FaLongArrowAltRight/></div>
                 </div>
                 <div className='gfncard'>
                     <div className='gfncard-image'>
                         <img className='gfncard-image-src' src={gfnTruck}/>
                     </div>
-                    <div className='gfncard-title'>Fast Shipping</div>
-                    <div className='gfncard-content'>Our refreshing purified bottled water can be delivered to your door.</div>
-                    <div className='gfncard-link'> Learn More <FaLongArrowAltRight/></div>
+                    <div className='gfncard-title'>Efficient Distribution</div>
+                    <div className='gfncard-content'>We supply premium bottled water to wholesalers, distributors, and large companies. Our distribution process is designed to ensure you receive top-quality water with consistency and reliability.</div>
+                    <div className='gfncard-link'> Learn About Our Delivery <FaLongArrowAltRight/></div>
                 </div>
                 <div className='gfncard'>
                     <div className='gfncard-image'>
                         <img className='gfncard-image-src' src={gfnSaveWater}/>
                     </div>
                     <div className='gfncard-title'>Nano Filtration</div>
-                    <div className='gfncard-content'>Our refreshing purified bottled water can be delivered to your door.</div>
-                    <div className='gfncard-link'> Learn More <FaLongArrowAltRight/></div>
+                    <div className='gfncard-content'>Our water undergoes advanced nano filtration technology, ensuring that every bottle is pure, clean, and safe for consumption. We prioritize water quality at every step of the production process.</div>
+                    <div className='gfncard-link'> See How We Filter <FaLongArrowAltRight/></div>
                 </div>
             </section>
         </div>
@@ -65,7 +65,9 @@ export default function Main() {
                     <div className='deltrk-title'>LEADER IN <span className='inline-col'>INDUSTRY</span></div>
                     <div className='deltrk-subtitle'>ABOUT US</div>
                 </div>
-                <div className='deltrk-text'> Our refreshing purified bottled water can now be delivered directly to your door with our water delivery service. Cras faucibus sodales ornare. In ac elit porttitor, tempor mauris in, ullamcorper ex. Integer et vulputate felis. Vestibulum vitae leo at felis semper lacinia. Vivamus quis turpis eget dui faucibus eleifend.</div>     
+                <div className='deltrk-text'> Our state-of-the-art production process utilizes advanced filtration technologies to ensure the purity and safety of every bottle. From sourcing the finest water to rigorous quality control testing, we take every step necessary to deliver a product you can trust.
+
+We specialize in bulk water distribution, ensuring timely and efficient supply to our partners. Whether you're a retailer, distributor, or corporate client, we are here to support your needs with consistency and excellence.</div>     
                 <div className='deltrk-btn'>Read more <FaLongArrowAltRight/></div>           
             </div>
         </div>
@@ -75,7 +77,7 @@ export default function Main() {
                     <div className='deltrk-title'>OUR DRINKING <span className='inline-col'>WATER</span></div>
                     <div className='deltrk-subtitle'>ABOUT PRODUCTS</div>
                 </div>
-                <div className='deltrk-text'> Our refreshing purified bottled water can now be delivered directly to your door with our water delivery service. Cras faucibus sodales ornare. In ac elit porttitor, tempor mauris in, ullamcorper ex. Integer et vulputate felis. Vestibulum vitae leo at felis semper lacinia. Vivamus quis turpis eget dui faucibus eleifend.</div>     
+                <div className='deltrk-text'> Our bottled water is purified using the latest technology, ensuring its clarity and taste. We distribute large quantities of water to wholesalers, distributors, and corporate clients who trust us for their quality standards.</div>     
                 <div className='first-hero-action'>
                     <div className='hero-action'>Order Now</div>
                 </div>
@@ -95,7 +97,7 @@ export default function Main() {
             <div className='ourtechcov'>
                 <div className='ourtech-cont'>
                     <div className='deltrk-title'><span className='inline-col'>OUR</span> TECHNOLOGY</div>
-                    <div className='deltrk-text'>Our company was founded in 2008. Water Brand bottle is great for drinking, cooking, activities, and even for children. The product is certified in 50 countries.</div>
+                    <div className='deltrk-text'>Founded in 2023, Jazmyne Water Factory uses cutting-edge purification technologies to produce water that meets international standards. Our products are trusted by businesses and organizations for their purity and reliability.</div>
                 </div>
                 <div className='tp'>
                     <div className='tpcard'>
@@ -144,7 +146,7 @@ export default function Main() {
                             <FaStar/>
                         </div>
                         <div className='client-card-content'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec venenatis nulla. Vivamus sagittis rhoncus.
+                        Jazmyne Water provides the best quality water for my retail store. Their consistency in product quality is unmatched.
                         </div>
                         <div className='client-card-profile'>
                             <img className='client-card-pf-img' src={cient1}/>
@@ -163,7 +165,7 @@ export default function Main() {
                             <FaStar/>
                         </div>
                         <div className='client-card-content'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec venenatis nulla. Vivamus sagittis rhoncus.
+                        We rely on Jazmyne for our bulk water needs. They never fail to deliver the best in both quality and quantity.
                         </div>
                         <div className='client-card-profile'>
                             <img className='client-card-pf-img' src={cient2}/>
@@ -182,7 +184,7 @@ export default function Main() {
                             <FaStar/>
                         </div>
                         <div className='client-card-content'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec venenatis nulla. Vivamus sagittis rhoncus.
+                        Our customers trust the water we sell because it's from Jazmyne. Clean, fresh, and always in demand!
                         </div>
                         <div className='client-card-profile'>
                             <img className='client-card-pf-img' src={cient3}/>
@@ -201,7 +203,7 @@ export default function Main() {
         <div className='numbers'>
             <div className='numberscov'>
                 <span className='bwd' data-duration="2000" data-to-value="2375" data-from-value="0">2,375 <div className='numbtxt'>BOTTLES WERE DELIVERED</div></span>
-                <span className='ywd' data-duration="1000" data-to-value="11" data-from-value="0">11 <div className='numbtxt'>YEARS WE DELIVERED</div></span>
+                <span className='ywd' data-duration="1000" data-to-value="11" data-from-value="0">11 <div className='numbtxt'>YEARS OF QUALITY SERVICE</div></span>
                 <span className='hc' data-duration="2000" data-to-value="99" data-from-value="0">99<span className="">%</span><div className='numbtxt'>HAPPY CUSTOMERS</div></span>
             </div>
         </div>
@@ -209,16 +211,16 @@ export default function Main() {
             <div className='delivery-cnt'>
                 <div className='deltrk-cnt'>
                     <div className='deltrk-header delivery-header'>
-                        <div className='deltrk-title'><span className='inline-col'>DELIVERY </span>SERVICE</div>
+                        <div className='deltrk-title'><span className='inline-col'>DISTRIBUTION </span>NETWORK</div>
                     </div>
-                    <div className='deltrk-text delivery-text'> We will deliver water to your home for 1 hour to anywhere in the city. Just fill the delivery form.</div>     
+                    <div className='deltrk-text delivery-text'> We maintain a regular sales period and work with our partners to ensure smooth and timely distribution. Whether you're a small reseller or a large corporation, we ensure the supply of premium water when you need it.</div>     
                     <div className='delivery-cards'>
                         <div className='delivery-card'>
                             <div className='delivery-card-img'>
                                 <img className='delivery-card-img-src' src={deliveryimg}/>
                             </div>
                             <div className='delivery-card-txt'>
-                                FREE DELIVERY
+                                SELF DELIVERY
                             </div>
                         </div>
                         <div className='delivery-card'>
@@ -226,7 +228,7 @@ export default function Main() {
                                 <img className='delivery-card-img-src' src={calender}/>
                             </div>
                             <div className='delivery-card-txt'>
-                                7 DAYS A WEEK
+                                6 DAYS A WEEK
                             </div>
                         </div>
                         <div className='delivery-card'>
@@ -234,7 +236,7 @@ export default function Main() {
                                 <img className='delivery-card-img-src' src={clock}/>
                             </div>
                             <div className='delivery-card-txt'>
-                                8:00 - 23:00
+                                8:00 - 17:00
                             </div>
                         </div>
                     </div>
