@@ -11,7 +11,7 @@ export default function Footer() {
               <Droplets className="h-8 w-8 text-blue-400" />
               <span className="text-2xl font-bold">Jazmyne</span>
             </div>
-            <p className="text-gray-400">Premium water bottling company committed to providing pure, refreshing hydration solutions.</p>
+            <p className="text-gray-400">At Jazmyne Water Factory, we are committed to producing premium, purified water that meets the highest standards of quality and purity. Since our founding, we have been dedicated to providing businesses, wholesalers, distributors, and large-scale companies with reliable access to clean, fresh drinking water.</p>
           </div>
 
           <div>
