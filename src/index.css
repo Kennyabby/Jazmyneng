@@ -1169,4 +1169,7 @@ body {
   height: 500px;
   margin-bottom: 30px;
  }
+ .tparrow1, .tparrow2{
+  display: none;
+ }
 }
