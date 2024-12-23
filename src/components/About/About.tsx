@@ -72,7 +72,7 @@ const About = ()=>{
                         <div className='deltrk-title'><span className='inline-col'>MEET</span> OUR TEAM</div>
                         <div className='deltrk-text'>Founded in 2023, Jazmyne Water Factory uses cutting-edge purification technologies to produce water that meets international standards. Our products are trusted by businesses and organizations for their purity and reliability.</div>
                     </div>
-                    <div className='tp1'>
+                    <div className='tp1'>                        
                         <FaChevronLeft className='tparrow1'/>
                         <FaChevronRight className='tparrow2'/>
                         <div className='tpcard1'>
@@ -83,7 +83,7 @@ const About = ()=>{
                         <div className='tpcard1'>
                             <img className='tpcard1-img-src' src={hrm}/>                            
                             <div className='tpcard1-job'>HR Manager</div>
-                            <div className='tpcard1-title'>Daniel Ameachi</div>
+                            <div className='tpcard1-title'>Daniel Amaechi</div>
                         </div>
                         <div className='tpcard1'>
                             <img className='tpcard1-img-src' src={dabaoibi}/>                            
