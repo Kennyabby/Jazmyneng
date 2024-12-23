@@ -865,6 +865,7 @@ body {
   border-radius: 20px;
   height: 400px;
   background: white;
+  box-shadow: var(--box-shadow);
 }
 .tpcard1-title{
   position: absolute;
@@ -887,8 +888,7 @@ body {
 .tpcard1-img-src{
   height: 100%;
   width: 100%;
-  border-radius: 20px;
-  box-shadow: var(--box-shadow2);
+  border-radius: 20px;  
 }
 @media screen and (max-width:700px) {
   
