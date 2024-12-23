@@ -33,26 +33,25 @@ const About = ()=>{
                     <div className='about-cont-title'>
                         <div className='about-cont-text'>ABOUT OUR COMPANY</div>
                         <div className='about-cont-subtext'>"We are delivering water".</div>
-                        <div className='about-cont-text1' style={{maxHeight:aboutMaxHeight, overflow:aboutOverflow}}>At Jazmyne Water Factory, we are committed to producing premium, purified water that meets the highest standards of quality and purity. Since our founding, we have been dedicated to providing businesses, wholesalers, distributors, and large-scale companies with reliable access to clean, fresh drinking water.
-
-Our state-of-the-art production process utilizes advanced filtration technologies to ensure the purity and safety of every bottle. From sourcing the finest water to rigorous quality control testing, we take every step necessary to deliver a product you can trust.
-
-We specialize in bulk water distribution, ensuring timely and efficient supply to our partners. Whether you're a retailer, distributor, or corporate client, we are here to support your needs with consistency and excellence.
-
-Our goal is simple: To provide the purest water, while maintaining an unwavering commitment to quality, sustainability, and customer satisfaction. We are proud to be a trusted partner for businesses looking for high-quality bottled water that enhances their product offering.</div>
-                <div className='first-hero-action'>
-                    <div className='hero-action'
-                        onClick={()=>{
-                            if (aboutMaxHeight!=='auto'){
-                                setAboutMaxHeight('auto')
-                                setAboutOverflow('auto')
-                            }else{
-                                setAboutMaxHeight('235px')
-                                setAboutOverflow('hidden')
-                            }
-                        }}
-                    >{aboutMaxHeight==='auto'?'Truncate':'Read More'}</div>
-                </div>
+                        <div className='about-cont-text1' style={{maxHeight:aboutMaxHeight, overflow:aboutOverflow}}>
+                            At Jazmyne Water Factory, we are committed to producing premium, purified water that meets the highest standards of quality and purity. Since our founding, we have been dedicated to providing businesses, wholesalers, distributors, and large-scale companies with reliable access to clean, fresh drinking water.
+                            Our state-of-the-art production process utilizes advanced filtration technologies to ensure the purity and safety of every bottle. From sourcing the finest water to rigorous quality control testing, we take every step necessary to deliver a product you can trust.
+                            We specialize in bulk water distribution, ensuring timely and efficient supply to our partners. Whether you're a retailer, distributor, or corporate client, we are here to support your needs with consistency and excellence.
+                            Our goal is simple: To provide the purest water, while maintaining an unwavering commitment to quality, sustainability, and customer satisfaction. We are proud to be a trusted partner for businesses looking for high-quality bottled water that enhances their product offering.
+                        </div>
+                        <div className='first-hero-action'>
+                            <div className='hero-action'
+                                onClick={()=>{
+                                    if (aboutMaxHeight!=='auto'){
+                                        setAboutMaxHeight('auto')
+                                        setAboutOverflow('auto')
+                                    }else{
+                                        setAboutMaxHeight('235px')
+                                        setAboutOverflow('hidden')
+                                    }
+                                }}
+                            >{aboutMaxHeight==='auto'?'Truncate':'Read More'}</div>
+                        </div>
                     </div>
                     <div className='about-cont-img'><img src={aboutimg} className='about-cont-src'/></div>
                 </div>

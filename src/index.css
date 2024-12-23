@@ -1091,4 +1091,20 @@ body {
   width: 100%;
   margin: 0px;
  }
+ .about-cont-cov{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+ }
+ .about-cont-text{
+  font-size: 1.8em;
+  text-align: center;
+  margin-top: 50px;
+ }
+ .about-cont-subtext{
+  text-align: center;
+  font-size: 1.5em;
+ }
 }
