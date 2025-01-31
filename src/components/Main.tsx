@@ -5,7 +5,7 @@ import gfnTruck from '../assets/images/truck.png'
 import gfnSaveWater from '../assets/images/save-water.png'
 import { FaLongArrowAltRight, FaPlay } from "react-icons/fa";
 
-import deltrk from '../assets/images/delivery-company1.png'
+import deltrk from '../assets/images/home/waterbottles.png'
 import bottles from '../assets/images/bottles1.png'
 
 import microscope from '../assets/images/microscope-1-4.png'
@@ -51,8 +51,8 @@ export default function Main() {
                     <div className='gfncard-image'>
                         <img className='gfncard-image-src' src={gfnSaveWater}/>
                     </div>
-                    <div className='gfncard-title'>Nano Filtration</div>
-                    <div className='gfncard-content'>Our water undergoes advanced nano filtration technology, ensuring that every bottle is pure, clean, and safe for consumption. We prioritize water quality at every step of the production process.</div>
+                    <div className='gfncard-title'>Reverse Osmosis</div>
+                    <div className='gfncard-content'>Our water undergoes advanced process of reverse osmosis, ensuring that every bottle is pure, clean, and safe for consumption. We prioritize water quality at every step of the production process.</div>
                     <Link to='/products'><div className='gfncard-link'> See How We Filter <FaLongArrowAltRight/></div></Link>
                 </div>
             </section>
@@ -117,7 +117,7 @@ We specialize in bulk water distribution, ensuring timely and efficient supply t
                         <div className='tpcard-img'>
                             <img className='tpcard-img-src' src={glass}/>
                         </div>
-                        <div className='tpcard-title'>NANO FILTRATION LEVEL</div>
+                        <div className='tpcard-title'>REVERSE OSMOSIS STAGING</div>
                     </div>
                     <div className='tpcard'>
                         <div className='tpcard-img'>
@@ -203,8 +203,8 @@ We specialize in bulk water distribution, ensuring timely and efficient supply t
         </div>
         <div className='numbers'>
             <div className='numberscov'>
-                <span className='bwd' data-duration="2000" data-to-value="2375" data-from-value="0">2,375 <div className='numbtxt'>BOTTLES WERE DELIVERED</div></span>
-                <span className='ywd' data-duration="1000" data-to-value="11" data-from-value="0">11 <div className='numbtxt'>YEARS OF QUALITY SERVICE</div></span>
+                <span className='bwd' data-duration="2000" data-to-value="2375" data-from-value="0">20M <div className='numbtxt'>BOTTLES WERE DELIVERED</div></span>
+                <span className='ywd' data-duration="1000" data-to-value="11" data-from-value="0">1+ <div className='numbtxt'>YEARS OF QUALITY SERVICE</div></span>
                 <span className='hc' data-duration="2000" data-to-value="99" data-from-value="0">99<span className="">%</span><div className='numbtxt'>HAPPY CUSTOMERS</div></span>
             </div>
         </div>

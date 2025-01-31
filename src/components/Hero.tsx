@@ -1,6 +1,7 @@
 import React, {useEffect, useRef} from 'react';
 import { FaPlay, FaCheckCircle } from "react-icons/fa";
 import bannerBottle from '../assets/images/banner-img.png';
+import bottleDemo from '../assets/images/home/bottle-demo.png'
 import { Link } from 'react-router-dom';
 
 
@@ -25,7 +26,7 @@ export default function Hero() {
         </div>
       </div>
       <div className='hero-image'>
-        <img className='hero-image-src' src={bannerBottle}/>
+        <img className='hero-image-src' src={bottleDemo}/>
       </div>
       <div className='third-hero'>
         <div className='third-hero-content-container'>
@@ -45,7 +46,7 @@ export default function Hero() {
         <div className='third-hero-content-container'>
           <FaCheckCircle className='third-hero-icon'/>
           <div className='third-hero-content'>
-            <div className='third-hero-content-title'>Nano filtration</div>
+            <div className='third-hero-content-title'>Reverse osmosis</div>
             <div className='third-hero-content-subtext'>Advanced technology for crystal-clear water.</div>
           </div>
         </div>

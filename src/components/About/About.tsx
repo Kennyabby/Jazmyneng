@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 import aboutimg from '../../assets/images/about/grouppic.png'
+import groupimg from '../../assets/images/about/grouppic.jpg'
 import dabaoibi from '../../assets/images/about/daboibi.jpg'
 import guruv from '../../assets/images/about/guruv.jpg'
 import hrm from '../../assets/images/about/hrm.jpg'
@@ -11,13 +12,15 @@ const About = ()=>{
     const aboutRef = useRef<HTMLDivElement>(null)
     const [aboutMaxHeight, setAboutMaxHeight] = useState('235px')
     const [aboutOverflow, setAboutOverflow] = useState('hidden')
+
     useEffect(()=>{
         if (aboutRef.current){
-        aboutRef.current.scrollIntoView({
-            behavior: 'smooth' 
-        })
+            aboutRef.current.scrollIntoView({
+                behavior: 'smooth' 
+            })
         }
     },[aboutRef])
+
     return(
         <>
         <div className='about' ref={aboutRef}>
@@ -57,7 +60,7 @@ const About = ()=>{
                             >{aboutMaxHeight==='auto'?'Truncate':'Read More'}</div>
                         </div>
                     </div>
-                    <div className='about-cont-img'><img src={aboutimg} className='about-cont-src'/></div>
+                    <div className='about-cont-img'><img src={groupimg} className='about-cont-src'/></div>
                 </div>
                 <div className='ourtech'>
             <div className='lpage-shape-top'>
@@ -73,8 +76,8 @@ const About = ()=>{
                         <div className='deltrk-text'>Founded in 2023, Jazmyne Water Factory uses cutting-edge purification technologies to produce water that meets international standards. Our products are trusted by businesses and organizations for their purity and reliability.</div>
                     </div>
                     <div className='tp1'>                        
-                        <FaChevronLeft className='tparrow1'/>
-                        <FaChevronRight className='tparrow2'/>
+                        {/* <FaChevronLeft className='tparrow1'/>
+                        <FaChevronRight className='tparrow2'/> */}
                         <div className='tpcard1'>
                             <img className='tpcard1-img-src' src={guruv}/>                            
                             <div className='tpcard1-job'>Factory Manager</div>

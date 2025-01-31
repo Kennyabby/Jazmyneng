@@ -29,7 +29,6 @@ html {
   --success-icon-color: #379eff;
   --txt-select-bg-color: #eff9fd;
   --logo-height: 47px;
-
   --box-shadow: -2px 18px 30px rgba(55, 158, 255,0.2);
   --box-shadow1: 0px 18px 30px rgba(55, 158, 255,0.1);
   --box-shadow2: -2px 5px 30px rgba(7, 101, 190, 0.2);
@@ -234,7 +233,10 @@ body {
   box-shadow: var(--box-shadow);
 }
 .hero-image{
-  width: 230px;
+  width: 250px;
+}
+.hero-image-src{
+  width: 300px;
 }
 
 .third-hero-content-container{
@@ -863,6 +865,7 @@ body {
   margin: auto;
   width: 300px;
   border-radius: 20px;
+  object-fit: cover;
   height: 400px;
   background: white;
   box-shadow: var(--box-shadow);
@@ -888,6 +891,7 @@ body {
 .tpcard1-img-src{
   height: 100%;
   width: 100%;
+  object-fit: contain;
   border-radius: 20px;  
 }
 @media screen and (max-width:700px) {
