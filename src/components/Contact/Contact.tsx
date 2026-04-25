@@ -33,8 +33,8 @@ const Contact = ()=>{
                         <div className='contact-ho'>
                             <div className='contact-title'>Head Office</div>
                             <div><b>Location:</b> 2, Okorodo Street, D-line, Garrison, Port Harcourt</div>
-                            <div><b>Call:</b> +234 901 4727 891</div>
-                            <div><b>Whatsapp:</b> +234 812 2765 076</div>
+                            <div><b>Call:</b> +234 803 490 8549</div>
+                            <div><b>Whatsapp:</b> +234 803 490 8549</div>
                         </div>
                         <div className='contact-oph'>
                             <div className='contact-title'>Opening Hours</div>
