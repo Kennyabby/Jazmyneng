@@ -35,10 +35,11 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>123 Water Street</li>
-              <li>Cityville, ST 12345</li>
-              <li>Phone: (555) 123-4567</li>
-              <li>Email: info@jazmyne.com</li>
+              <li>Head Office: No. 18, CHIEF NWUKE STREET TRANS-AMADI, OPP. WEATHERFORD, PORT HARCOURT, RIVERS STATE.</li>
+              <li>Branch Office: No. 2, OKORODO STREET, D-LINE, PORT HARCOURT, RIVERS STATE.</li>
+              <li>Phone: +234 810 780 1521</li>
+              <li>Email: sales@jazmyneng.com</li>
+              <li>Email: jazmynewater@gmail.com</li>
             </ul>
           </div>
 
