@@ -40,7 +40,7 @@ export default function Header() {
               <div>2, Okorodo Street, D-line, Garrison, Port Harcourt</div>
             </div>
             <div className='ctcaddr'> 
-              <div className='num'>+234 901 4727 891</div> 
+              <div className='num'>+234 803 490 8549</div> 
               <div>Call Us</div>  
             </div>
           </div>
