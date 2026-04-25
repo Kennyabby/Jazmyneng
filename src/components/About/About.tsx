@@ -70,7 +70,7 @@ const About = ()=>{
                     c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
                 </svg>
             </div>
-                <div className='ourtechcov'>
+                {/* <div className='ourtechcov'>
                     <div className='ourtech-cont'>
                         <div className='deltrk-title'><span className='inline-col'>MEET</span> OUR TEAM</div>
                         <div className='deltrk-text'>Founded in 2023, Jazmyne Water Factory uses cutting-edge purification technologies to produce water that meets international standards. Our products are trusted by businesses and organizations for their purity and reliability.</div>
@@ -94,7 +94,7 @@ const About = ()=>{
                             <div className='tpcard1-title'>Daboibi Fubara</div>
                         </div>
                     </div>                    
-                </div>
+                </div> */}
             </div>
                 <div></div>
             </div>
